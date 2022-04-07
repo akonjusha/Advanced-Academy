@@ -53,8 +53,20 @@ body {
 }
 /*---Header Start---*/
 .header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/img-school/bucerius-law-school-7Knag4Km_p4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.header-nav {
+  background: linear-gradient(
+    to top,
+    rgba(0, 31, 84, 0.05),
+    rgba(0, 31, 84, 3)
+  );
   padding: 0.8rem 4.8rem;
-  background-color: #001f54;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +121,7 @@ body {
 
 .nav li .submenu-About a:link,
 .nav li .submenu-About a:visited {
-  color: #001f54;
+  color: rgb(0, 31, 84);
   font-weight: 400;
   background-color: #f7f7f7;
 }
@@ -120,38 +132,26 @@ body {
 /*SubNav*/
 
 /*---Hero Start---*/
-.hero {
-  background-image: url(../img/img-school/bucerius-law-school-7Knag4Km_p4-unsplash.jpg);
-  background-size: cover;
-  z-index: -1;
-  height: 90vh;
-  position: relative;
-}
 
 .hero-description {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #001f54b5;
   max-width: 50%;
   padding: 3.2rem 3.2rem;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(0, -50%);
+  right: 50%;
+  transform: translate(50%, -50%);
   text-align: center;
+  color: #f7f7f7;
 }
 
 .primary-title {
   text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 1.2px;
   font-size: 5.2rem;
-  line-height: 1.1;
+  line-height: 1.2;
   margin-bottom: 3.2rem;
-}
-
-.hero--description {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  letter-spacing: 1.2px;
-  font-weight: 500;
-  margin-bottom: 2.4rem;
 }
 
 .btn:link,
