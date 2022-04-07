@@ -126,7 +126,6 @@ body {
   z-index: -1;
   height: 90vh;
   position: relative;
-  margin-bottom: 9.6rem;
 }
 
 .hero-description {
@@ -161,10 +160,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  cursor: pointer;
   background: #56bfac;
   padding: 1.2rem 2.4rem;
-  border: none;
   font-size: 18px;
   color: white;
   border: 2px solid #56bfac;
@@ -178,19 +175,43 @@ body {
 /*---Hero End---*/
 /*---Quote start*/
 .quote {
-  background-color: #56bfac;
-  text-align: center;
-  padding: 4.8rem 0;
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
+}
+.blockquote {
+  position: relative;
+  padding: 3.2rem 0;
+  width: 100%;
+  max-width: 120rem;
+  z-index: 1;
+  margin: 8rem auto;
+  align-self: center;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
 }
 .text-quote {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 4rem;
   letter-spacing: 1.2px;
+  color: #001f54;
+  font-weight: 800;
+  line-height: 1.2;
   margin-bottom: 2.4rem;
 }
 .author-quote {
+  color: #292a2b;
   font-size: 2.4rem;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.blockquote:after {
+  position: absolute;
+  content: "”";
+  color: #56bfac;
+  font-size: 20rem;
+  font-weight: bold;
+  line-height: 0;
+  left: 80%;
+  bottom: -25%;
 }
 /*---Quote end---*/
 
@@ -327,9 +348,9 @@ body {
   margin-bottom: 2rem;
 }
 .subscribe-p {
-  max-width: 50%;
+  max-width: 60%;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 2.4rem;
 }
 .form {
@@ -359,6 +380,10 @@ body {
   background: #fff;
   color: #56bfac;
   border: 2px solid #56bfac;
+}
+.notice {
+  font-size: 1.4rem;
+  max-width: 50%;
 }
 /*---Subscription end---*/
 
