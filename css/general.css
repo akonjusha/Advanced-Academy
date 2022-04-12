@@ -130,7 +130,7 @@ body {
 }
 
 .mb-lg {
-  margin-bottom: 12.8rem;
+  margin-bottom: 16rem;
 }
 
 /*Header start*/
@@ -220,6 +220,9 @@ body {
   color: #001f54;
   border-top: 1px solid #eee;
   padding-bottom: 4.8rem;
+}
+.footer .footer-content {
+  justify-items: center;
 }
 .footer .footer-block {
   display: flex;
