@@ -2,10 +2,6 @@
   html {
     font-size: 56.25%;
   }
-  .news-content .news-block {
-    width: 20rem;
-    height: 15rem;
-  }
 }
 
 @media (max-width: 74.56em) {
@@ -21,4 +17,33 @@
     right: 50%;
     transform: translate(50%, -50%);
   }
+
+  .departments .grid-2 {
+    grid-template-columns: 1fr !important;
+    row-gap: 1.6rem;
+  }
+  .department-description {
+    text-align: center;
+  }
+
+  .welcome .grid-2 {
+    grid-template-columns: 1fr !important;
+    row-gap: 4.8rem;
+  }
+
+  .welcome-header {
+    margin-bottom: 9.6rem;
+  }
+
+  .welcome-body p {
+    max-width: 100%;
+    margin-bottom: 0.4rem;
+  }
+  .speech {
+    align-self: center;
+  }
+
+  /* .news{
+
+  } */
 }
