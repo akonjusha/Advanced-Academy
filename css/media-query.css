@@ -65,7 +65,9 @@
   html {
     font-size: 43.75%;
   }
-  .news-content {
+  .news-content .news-block {
+    width: 20rem;
+    height: 10rem;
   }
   .text-quote {
     font-size: 3rem;
@@ -99,5 +101,10 @@
 @media (max-width: 490) {
   html {
     font-size: 37.5%;
+  }
+
+  .news-content .news-block {
+    width: 15rem;
+    height: 5rem;
   }
 }
