@@ -1,21 +1,7 @@
-@media (max-width: 1245px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media (max-width: 980px) {
-  html {
-    font-size: 45%;
-  }
-
+@media (max-width: 1300px) {
   .testimonial-block:hover::before,
   .testimonial-block:hover::after {
     transform: translatey(-1.2rem);
-  }
-  .hero-description {
-    text-align: center;
-    right: 5%;
   }
 
   .blockquote:after {
@@ -31,29 +17,87 @@
   .testimonial-body {
     row-gap: 6.4rem;
   }
-  .footer-content {
-    column-gap: 1.6rem;
-  }
-  .footer-logo {
-    grid-area: -1/4;
-  }
+
   .footer .copyright {
     margin-top: auto;
   }
 }
-
-@media (max-width: 730px) {
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+  .hero-description {
+    text-align: center;
+    right: 5%;
+  }
+  .news-content {
+    column-gap: 2.4rem;
+  }
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.6rem;
+    row-gap: 2.4rem;
+  }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 740px) {
+  .news-content {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.6rem;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .footer-logo {
+    grid-row: 4;
+  }
+}
+
+@media (max-width: 680px) {
+  html {
+    font-size: 43.75%;
+  }
+  .news-content {
+  }
+  .text-quote {
+    font-size: 3rem;
+  }
+
   .hero-description {
     transform: translate(0, -40%);
   }
   .primary-title {
     font-size: 3.6rem;
   }
+  .secondary-title {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
   .hero .btn:last-child:link,
   .hero .btn:last-child:visited {
     margin-top: 1.4rem;
+  }
+  .form-button,
+  .form-email {
+    padding: 0.4rem 1.4rem;
+  }
+  .form-email {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 490) {
+  html {
+    font-size: 37.5%;
   }
 }
