@@ -148,7 +148,6 @@ body {
   margin-right: 3.2rem;
 }
 .nav {
-  padding: 0.8rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,12 +170,13 @@ body {
 .nav-bar a:visited {
   display: block;
   color: white;
-  padding: 1.6rem 2.4rem;
+  padding: 1.4rem 2.4rem;
   text-decoration: none;
 }
 .nav-bar a:hover,
 .nav-bar a:active {
   background-color: white;
+  /* border-bottom: 1px solid white; */
   color: #56bfac;
   font-weight: 500;
 }

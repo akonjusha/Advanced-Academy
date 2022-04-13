@@ -291,6 +291,106 @@
   transform: translateY(0);
 }
 /*news end*/
+/*testimonials start*/
+.testimonial-header {
+  text-align: center;
+  color: #001f54;
+  margin-bottom: 9.6rem;
+}
+.testimonial-header h2 {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.testimonial-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 2rem;
+  padding: 3.2rem;
+}
+.testimonial-body .testimonial-block {
+  position: relative;
+  padding: 8rem 4rem 4rem;
+  transition: 0.5s;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.testimonial-body .testimonial-block:hover {
+  background-color: #001f54;
+}
+.testimonial-body .testimonial-block p {
+  transition: 0.5s;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.testimonial-body .testimonial-block h4 {
+  color: #001f54;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  transition: 0.5s;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.testimonial-body .testimonial-block h4 span {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #c5c5c5;
+  transition: 0.5s;
+}
+
+.testimonial-block:hover p,
+.testimonial-block:hover h4,
+.testimonial-block:hover h4 span {
+  color: white;
+}
+
+.testimonial-img {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial-block::before {
+  content: open-quote;
+  position: absolute;
+  top: 0rem;
+  left: 2rem;
+  font-size: 20rem;
+  opacity: 0.05;
+  transition: 0.5s;
+}
+.testimonial-block:hover::before {
+  opacity: 1;
+  transform: translatex(-20px);
+  color: #56bfac;
+}
+.testimonial-block::after {
+  content: close-quote;
+  position: absolute;
+  bottom: -10rem;
+  right: 2rem;
+  font-size: 20rem;
+
+  opacity: 0.05;
+
+  transition: 0.5s;
+}
+.testimonial-block:hover::after {
+  opacity: 1;
+  transform: translatex(-20px);
+
+  color: #56bfac;
+}
+.testimonial-img img {
+  max-width: 100%;
+}
+/*testimonials end*/
 /*Subscribe start*/
 .pattern {
   background: url(../img/background.jpg);
