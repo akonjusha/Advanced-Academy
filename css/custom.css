@@ -146,6 +146,7 @@
 /*Quote end*/
 /*departments start*/
 .departments {
+  background-color: #f7f7f7;
   justify-content: space-between;
   align-items: center;
 }
@@ -194,9 +195,9 @@
 
 .news-content {
   position: relative;
-  display: flex;
-  gap: 1.6rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 1.6rem;
 }
 
 .news-content .news-block {
@@ -214,17 +215,11 @@
 }
 
 .news-content .news-block .news-img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
 }
 .news-content .news-block .news-img::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -431,9 +426,9 @@
   margin-bottom: 2.4rem;
 }
 .form-email {
-  padding: 1.4rem 1.8rem;
+  padding: 1.2rem 1.8rem;
   border: 1px solid #cad3db;
-  width: 40rem;
+  max-width: 40rem;
   font-size: 18px;
   color: #0f121f;
 }
@@ -444,8 +439,7 @@
   cursor: pointer;
   background: #56bfac;
   padding: 1.2rem 1.8rem;
-  border: none;
-  width: 15rem;
+  max-width: 15rem;
   font-size: 1.8rem;
   color: white;
   border: 2px solid #56bfac;

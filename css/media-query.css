@@ -1,49 +1,56 @@
-@media (max-width: 91.25em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-
-@media (max-width: 74.56em) {
+@media (max-width: 1245px) {
   html {
     font-size: 50%;
   }
 }
 
-@media (max-width: 1000px) {
-  .hero-description {
-    text-align: center;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
+@media (max-width: 980px) {
+  html {
+    font-size: 45%;
   }
 
-  .departments .grid-2 {
-    grid-template-columns: 1fr !important;
-    row-gap: 1.6rem;
+  .testimonial-block:hover::before,
+  .testimonial-block:hover::after {
+    transform: translatey(-1.2rem);
   }
+  .hero-description {
+    text-align: center;
+    right: 5%;
+  }
+
+  .blockquote:after {
+    bottom: -25%;
+  }
+  .grid-2 {
+    row-gap: 2.4rem;
+  }
+
   .department-description {
     text-align: center;
   }
-
-  .welcome .grid-2 {
-    grid-template-columns: 1fr !important;
-    row-gap: 4.8rem;
+  .testimonial-body {
+    row-gap: 6.4rem;
   }
-
-  .welcome-header {
-    margin-bottom: 9.6rem;
+  .footer-content {
+    column-gap: 1.6rem;
   }
-
-  .welcome-body p {
-    max-width: 100%;
-    margin-bottom: 0.4rem;
+  .footer-logo {
+    grid-area: -1/4;
   }
-  .speech {
-    align-self: center;
+  .footer .copyright {
+    margin-top: auto;
   }
+}
 
-  /* .news{
+@media (max-width: 730px) {
+}
 
-  } */
+@media (max-width: 450px) {
+  .primary-title {
+    font-size: 4.4rem;
+  }
+  .hero .btn:last-child:link,
+  .hero .btn:last-child:visited {
+    margin-top: 1.4rem;
+  }
 }
