@@ -41,8 +41,8 @@
     font-size: 2rem;
     background-color: hsla(218, 100%, 16%, 0.8);
     align-items: flex-end;
-    padding: 5% 1% 0 0;
-
+    padding: 6% 1% 0 0;
+    text-transform: uppercase;
     transition: all 0.5s ease-in-out;
     opacity: 0;
     pointer-events: none;
@@ -88,6 +88,10 @@
     column-gap: 1.6rem;
     row-gap: 2.4rem;
   }
+
+  .footer .social-icon {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 740px) {
@@ -103,11 +107,16 @@
 
   .footer-content {
     grid-template-columns: 1fr;
-    row-gap: 2.4rem;
+    row-gap: 6.4rem;
   }
 
   .footer-logo {
     grid-row: 4;
+  }
+
+  .departament-img svg {
+    height: auto;
+    margin-top: 3.2rem;
   }
 }
 

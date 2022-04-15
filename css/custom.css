@@ -30,13 +30,11 @@
   position: absolute;
   top: 15px;
   right: 10px;
-  z-index: 5;
 }
-/* .open-nav button {
+.open-nav button {
   z-index: 5;
   position: fixed;
-  right: 0;
-} */
+}
 .mobile-nav ion-icon {
   height: 3.2rem;
   width: 3.2rem;
