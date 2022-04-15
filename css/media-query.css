@@ -118,6 +118,9 @@
     height: auto;
     margin-top: 3.2rem;
   }
+  .form-button {
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 680px) {
@@ -148,19 +151,12 @@
   .hero .btn:last-child:visited {
     margin-top: 1.4rem;
   }
-  .form-button,
-  .form-email {
-    padding: 0.4rem 1.4rem;
-  }
-  .form-email {
-    max-width: 30rem;
-  }
 }
 
-@media (max-width: 490) {
-  html {
+@media (max-width: 590) {
+  /* html {
     font-size: 37.5%;
-  }
+  } */
 
   .news-content .news-block {
     width: 15rem;
