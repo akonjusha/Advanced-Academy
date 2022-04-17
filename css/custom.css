@@ -1,6 +1,6 @@
 /*Hero start*/
 .header {
-  background-image: linear-gradient(rgba(0, 31, 84, 0.6), rgba(0, 31, 84, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/img-school/bucerius-law-school-7Knag4Km_p4-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -121,12 +121,12 @@
 /*---SubNav end---*/
 
 .hero-description {
-  padding: 3.2rem 3.2rem;
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(0, -50%);
-  color: #f7f7f7;
+  transform: translate(45%, -50%);
+  color: white;
+  text-align: center;
 }
 
 .hero .primary-title {
@@ -140,10 +140,12 @@
   border-bottom: 3px solid #56bfac;
 }
 
-.hero .btn:last-child:link,
-.hero .btn:last-child:visited {
+.btn-hero .btn:last-child:link,
+.btn-hero .btn:last-child:visited {
+  color: white;
+  background-color: #001f54;
   margin-left: 1.4rem;
-  background-color: transparent;
+  border: 2px solid #001f54;
 }
 .hero .btn:last-child:hover,
 .hero .btn:last-child:active {
