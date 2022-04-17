@@ -421,7 +421,7 @@
 }
 .testimonial-body .testimonial-block {
   position: relative;
-  padding: 8rem 4rem 4rem;
+  padding: 8rem 8rem 4rem;
   transition: 0.5s;
   text-align: center;
   background-color: #f7f7f7;
@@ -433,6 +433,8 @@
   transition: 0.5s;
   font-size: 1.6rem;
   line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 .testimonial-body .testimonial-block h4 {
   color: #001f54;
@@ -443,9 +445,9 @@
   text-transform: uppercase;
 }
 .testimonial-body .testimonial-block h4 span {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2rem;
-  color: #c5c5c5;
+  color: #545454;
   transition: 0.5s;
 }
 
@@ -477,7 +479,7 @@
 }
 .testimonial-block:hover::before {
   opacity: 1;
-  transform: translatex(-20px);
+  transform: translatey(-10px);
   color: #56bfac;
 }
 .testimonial-block::after {
@@ -493,7 +495,7 @@
 }
 .testimonial-block:hover::after {
   opacity: 1;
-  transform: translatex(-20px);
+  transform: translateY(-10px);
 
   color: #56bfac;
 }
@@ -560,17 +562,18 @@
 }
 .form-button {
   cursor: pointer;
-  background: #56bfac;
+  background: #001f54;
   padding: 1rem 3.2rem;
   max-width: 15rem;
   font-size: 1.8rem;
-  color: white;
-  border: 2px solid #56bfac;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #001f54;
 }
 .form-button:hover {
   background: #fff;
-  color: #56bfac;
-  border: 2px solid #56bfac;
+  color: #001f54;
+  border: 2px solid #001f54;
 }
 .notice {
   font-size: 1.4rem;
