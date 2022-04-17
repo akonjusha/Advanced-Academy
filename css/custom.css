@@ -208,6 +208,7 @@
 
 .img-author img {
   max-width: 100%;
+  max-height: auto;
 }
 
 /*--Welcome end--*/
@@ -496,6 +497,7 @@
 }
 .testimonial-img img {
   max-width: 100%;
+  max-height: auto;
 }
 /*testimonials end*/
 /*Subscribe start*/
