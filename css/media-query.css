@@ -26,6 +26,10 @@
   .header {
     position: relative;
   }
+  .hero .primary-title {
+    font-size: 4.4rem;
+  }
+
   .mobile-nav {
     display: block;
   }
@@ -74,8 +78,14 @@
   html {
     font-size: 50%;
   }
-  /*menu*/
+  /* .hero .primary-title {
+    font-size: 3.6rem;
+  } */
 
+  .hero .btn-hero .btn:link,
+  .hero .btn-hero .btn:visited {
+    font-size: 1.6rem;
+  }
   .news-content {
     column-gap: 2.4rem;
   }
@@ -132,7 +142,7 @@
   }
 
   .hero-description {
-    transform: translate(0, -40%);
+    transform: translate(50%, -40%);
   }
   .primary-title {
     font-size: 3.6rem;
