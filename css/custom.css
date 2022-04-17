@@ -496,7 +496,6 @@
 .testimonial-block:hover::after {
   opacity: 1;
   transform: translateY(-10px);
-
   color: #56bfac;
 }
 .testimonial-img img {
