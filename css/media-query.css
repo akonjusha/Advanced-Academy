@@ -29,49 +29,9 @@
   .hero .primary-title {
     font-size: 4.4rem;
   }
-
-  .mobile-nav {
-    display: block;
-  }
-  .nav-bar {
-    position: fixed;
-    top: 0%;
-    left: 100%;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-weight: 600;
-    font-size: 2rem;
-    background-color: hsla(218, 100%, 16%, 0.8);
-    align-items: flex-end;
-    padding: 6% 1% 0 0;
-    text-transform: uppercase;
-    transition: all 0.5s ease-in-out;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    z-index: 3;
-  }
-
-  .open-nav .nav-bar {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    left: 0%;
-  }
-  .mobile-nav ion-icon[name="menu-outline"] {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-  }
-  .open-nav ion-icon[name="close-outline"] {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-  }
-  .open-nav ion-icon[name="menu-outline"] {
-    display: none;
+  .nav-bar a:link,
+  .nav-bar a:visited {
+    padding: 1.2rem 1.6rem;
   }
 }
 @media (max-width: 1000px) {
@@ -126,6 +86,51 @@
   }
   .form-button {
     margin-top: 1rem;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: hsla(218, 100%, 16%, 0.8);
+    align-items: flex-end;
+    padding: 6.4rem 4.8rem 0 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 3;
+  }
+
+  .open-nav .nav-bar {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    left: 0%;
+  }
+  .mobile-nav ion-icon[name="menu-outline"] {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .open-nav ion-icon[name="close-outline"] {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    padding-right: 3.2rem;
+  }
+  .open-nav ion-icon[name="menu-outline"] {
+    display: none;
   }
 }
 

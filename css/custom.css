@@ -21,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 9.6rem;
 }
 .mobile-nav {
   border: none;
@@ -34,6 +33,8 @@
 .open-nav button {
   z-index: 5;
   position: fixed;
+
+  padding: 1.6rem;
 }
 .mobile-nav ion-icon {
   height: 3.2rem;
