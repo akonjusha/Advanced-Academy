@@ -84,8 +84,9 @@
     height: auto;
     margin-top: 3.2rem;
   }
+
   .form-button {
-    margin-top: 1rem;
+    padding: 0.4rem 2.4rem;
   }
 
   .header-nav {
@@ -172,6 +173,10 @@
   /* html {
     font-size: 37.5%;
   } */
+
+  .form-email {
+    max-width: 80%;
+  }
 
   .news-content .news-block {
     width: 15rem;

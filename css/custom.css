@@ -527,7 +527,7 @@
   justify-content: center;
   max-width: 100%;
   height: auto;
-  padding: 4.8rem;
+  padding: 2.4rem;
   text-align: center;
 }
 .subscribe-title {
@@ -538,12 +538,13 @@
   margin-bottom: 2rem;
 }
 .subscribe-p {
-  max-width: 60%;
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: 2.4rem;
 }
 .form {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 2.4rem;
   max-width: 100%;
 }
@@ -551,7 +552,7 @@
   padding: 1rem 1.8rem;
   border: 1px solid #cad3db;
   max-width: 100%;
-  font-size: 18px;
+
   color: #0f121f;
 }
 .form-email:focus {
@@ -565,7 +566,7 @@
   background: #001f54;
   padding: 1rem 3.2rem;
   max-width: 15rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #fff;
   text-transform: uppercase;
   border: 2px solid #001f54;
