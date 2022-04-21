@@ -15,7 +15,7 @@
     text-align: center;
   }
   .testimonial-body {
-    row-gap: 6.4rem;
+    row-gap: 9.6rem;
   }
 
   .footer .copyright {
@@ -88,6 +88,10 @@
     margin-top: 1rem;
   }
 
+  .header-nav {
+    padding-top: 1.6rem;
+  }
+
   .mobile-nav {
     display: block;
   }
@@ -103,7 +107,7 @@
     font-size: 2rem;
     background-color: hsla(218, 100%, 16%, 0.8);
     align-items: flex-end;
-    padding: 6.4rem 4.8rem 0 0;
+    padding: 6.4rem 3.2rem 0 0;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
     opacity: 0;
@@ -127,7 +131,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-    padding-right: 3.2rem;
+    padding-right: 1.6rem;
   }
   .open-nav ion-icon[name="menu-outline"] {
     display: none;
